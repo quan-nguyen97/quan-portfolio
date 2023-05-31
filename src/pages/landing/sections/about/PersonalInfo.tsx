@@ -29,7 +29,7 @@ const PersonalInfo = () => {
     <Row>
       <Col lg={4}>
         <Image
-          src="src/assets/img/quan_cv_photo.png"
+          src="/src/assets/img/quan_cv_photo.png"
           style={{ width: '100%' }}
         />
       </Col>
