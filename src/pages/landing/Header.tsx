@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { Nav, NavItem, Navbar } from 'react-bootstrap';
-import { Envelope, Github, Linkedin } from 'react-bootstrap-icons';
+import { Envelope, Github, Linkedin, List, X } from 'react-bootstrap-icons';
 import { NavLink, useLocation } from 'react-router-dom';
 import { ReactComponent as Logo } from '../../assets/logo.svg';
 import './Header.scss';
+import classNames from 'classnames';
 
 const Header = () => {
   const [headerPosition, setHeaderPosition] = useState('center');
+  const [mobileNavOpen, setMobileNavOpen] = useState(false);
+
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -15,6 +18,7 @@ const Header = () => {
     } else {
       setHeaderPosition('top');
     }
+    setMobileNavOpen(false);
   }, [pathname]);
 
   return (
@@ -27,7 +31,12 @@ const Header = () => {
         <h2>
           Passionated <span>Software Engineer</span> from Berlin
         </h2>
-        <Navbar variant="dark">
+        <Navbar
+          variant="dark"
+          className={classNames({
+            'navbar-mobile': mobileNavOpen,
+          })}
+        >
           <Nav as="ul">
             <NavItem as="li">
               <Nav.Link as={NavLink} to="/" className="ps-0">
@@ -53,6 +62,17 @@ const Header = () => {
               </Nav.Link>
             </NavItem>
           </Nav>
+          {mobileNavOpen ? (
+            <X
+              className="mobile-nav-toggle"
+              onClick={() => setMobileNavOpen(false)}
+            />
+          ) : (
+            <List
+              className="mobile-nav-toggle"
+              onClick={() => setMobileNavOpen(!mobileNavOpen)}
+            />
+          )}
         </Navbar>
 
         <div className="social-links">
