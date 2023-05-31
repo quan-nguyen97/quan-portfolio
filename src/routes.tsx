@@ -1,5 +1,6 @@
 import Landing from './pages/landing/Landing';
 import About from './pages/landing/sections/about/About';
+import Resume from './pages/landing/sections/resume/Resume';
 
 const routes = [
   {
@@ -9,6 +10,10 @@ const routes = [
       {
         path: '/about',
         element: <About />,
+      },
+      {
+        path: '/resume',
+        element: <Resume />,
       },
     ],
   },
