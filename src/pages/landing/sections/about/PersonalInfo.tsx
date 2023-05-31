@@ -42,7 +42,6 @@ const PersonalInfo = () => {
         <Row>
           <Col lg={6}>
             <InfoItem label="Fullname" value="Hong Quan, Nguyen" />
-            <InfoItem label="Birthday" value="12 Juli 1997" />
             <InfoItem label="Residence" value="Berlin, Germany" />
           </Col>
           <Col lg={6}>
@@ -50,7 +49,6 @@ const PersonalInfo = () => {
               label="University"
               value="University of Applied Science Berlin"
             />
-            <InfoItem label="Degree" value="Bachelor of Science" />
             <InfoItem
               type="email"
               label="Email"
