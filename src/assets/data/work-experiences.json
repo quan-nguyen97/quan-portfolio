@@ -1,0 +1,27 @@
+[
+  {
+    "milestone": "Software engineer (working student/ fulltime)",
+    "time": "01.2020 - now",
+    "place": "Virtimo AG",
+    "description": "",
+    "works": [
+      "Fullstack BPM software development using Javascript and Java",
+      "Secure HTTP connections between Java web application and services such as Elasticsearch, Keycloak",
+      "Setup client certificate authentication between web services",
+      "Deploy BPC software AWS and Google Cloud, using Kubernetes and services such as AWS EKS and Google Cloud GKE",
+      "Develop a Kubernetes Operator, which can automatically deploy and configure software to Kubernetes cluster",
+      "Integrate Kubernetes Operator with AWS STS for generating credentials for other AWS Services",
+      "Implement Jenkins pipeline for build, test and deploying software modules automatically"
+    ]
+  },
+  {
+    "milestone": "Software developer (Working student)",
+    "time": "01.2019 - 12.2019",
+    "place": "Satis Information GmbH",
+    "works": [
+      "Implement search function for a Java web application, using Elasticsearch and it's Java High Level REST client",
+      "Fullstack software development",
+      "Develop a calendar application for managing and tracking working times"
+    ]
+  }
+]

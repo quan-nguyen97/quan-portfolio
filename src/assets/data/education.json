@@ -1,0 +1,13 @@
+[
+  {
+    "milestone": "Bachelor of Applied Computer Science",
+    "time": "04.2018 - 04.2022",
+    "place": "University of Applied Sciences Berlin",
+    "description": "",
+    "works": [
+      "Develop an interactive children book, using Augmented Reality (Unity, C#)",
+      "Develop an audio speaker box for visually impaired children",
+      "Bachelor thesis: Attack detection by monitoring system for critical infrastructure"
+    ]
+  }
+]
