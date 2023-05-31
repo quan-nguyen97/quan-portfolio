@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col, Image } from 'react-bootstrap';
 import { ChevronRight } from 'react-bootstrap-icons';
+import imgUrl from '../../../../assets/img/quan_cv_photo.png';
 
 interface InfoItemProps {
   label: string;
@@ -28,10 +29,7 @@ const PersonalInfo = () => {
   return (
     <Row>
       <Col lg={4}>
-        <Image
-          src="/src/assets/img/quan_cv_photo.png"
-          style={{ width: '100%' }}
-        />
+        <Image src={imgUrl} style={{ width: '100%' }} />
       </Col>
       <Col lg={8} className="content">
         <h3>Software Engineer</h3>
