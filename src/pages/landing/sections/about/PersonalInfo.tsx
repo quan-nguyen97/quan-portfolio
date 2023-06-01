@@ -54,6 +54,14 @@ const PersonalInfo = () => {
             />
           </Col>
         </Row>
+        <p>
+          My enthusiasm for IT projects and digitalization is contagious. I
+          would love to thrive on the opportunity to collaborate with
+          like-minded professionals, brainstorming innovative ideas and bringing
+          them to fruition through well-structured, efficient code. With ability
+          to analyze complex problems and break them down into manageable
+          components, i will be a valuable asset in your development team.
+        </p>
       </Col>
     </Row>
   );

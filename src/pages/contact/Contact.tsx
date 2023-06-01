@@ -33,10 +33,13 @@ const Contact = () => {
             title="Social Profiles"
             content={
               <div className="social-links">
-                <a>
+                <a href="https://github.com/quan-nguyen97" target="_blank">
                   <Github />
                 </a>
-                <a>
+                <a
+                  href="https://www.linkedin.com/in/hong-quan-nguyen-a5333017b/"
+                  target="_blank"
+                >
                   <Linkedin />
                 </a>
               </div>

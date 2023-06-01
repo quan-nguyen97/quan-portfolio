@@ -3,7 +3,7 @@ import Section from '../../../../components/section/Section';
 import './About.scss';
 import Skills from './Skills';
 import PersonalInfo from './PersonalInfo';
-import Interest from './Interest';
+// import Interest from './Interest';
 
 const About = () => {
   return (
@@ -15,7 +15,7 @@ const About = () => {
     >
       <PersonalInfo />
       <Skills />
-      <Interest />
+      {/* TBD: <Interest /> */}
     </Section>
   );
 };
