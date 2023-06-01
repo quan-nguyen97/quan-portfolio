@@ -18,6 +18,7 @@ const SkillsGroup = ({ skills }: SkillsRowProps) => {
           const { name, style } = skill;
           return (
             <Col
+              key={name}
               style={{
                 display: 'flex',
                 justifyContent: 'center',
