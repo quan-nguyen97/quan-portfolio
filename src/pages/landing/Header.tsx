@@ -76,13 +76,16 @@ const Header = () => {
         </Navbar>
 
         <div className="social-links">
-          <a href="#">
+          <a href="mailto:hquan.nguyen1997@gmail.com" target="_blank">
             <Envelope />
           </a>
-          <a href="#">
+          <a href="https://github.com/quan-nguyen97" target="_blank">
             <Github />
           </a>
-          <a href="#">
+          <a
+            href="https://www.linkedin.com/in/hong-quan-nguyen-a5333017b/"
+            target="_blank"
+          >
             <Linkedin />
           </a>
         </div>
