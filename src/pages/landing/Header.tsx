@@ -25,9 +25,12 @@ const Header = () => {
     <header id="header" className={`header-${headerPosition}`}>
       <div className="container">
         <h1>
-          <Logo width={60} height={60} className="me-3" />
-          <a>Quan Nguyen</a>
+          <NavLink to="/">
+            <Logo width={60} height={60} className="me-3" />
+            <a>Quan Nguyen</a>
+          </NavLink>
         </h1>
+
         <h2>
           Passionated <span>Software Engineer</span> from Berlin
         </h2>
